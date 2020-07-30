@@ -1,0 +1,52 @@
+2020-07-29 14:23:20,942 - main - extract_data - INFO - Initiate Payout Level Data Extraction
+2020-07-29 14:23:20,943 - main - extract_data - INFO - Read data from csv
+2020-07-29 14:23:22,054 - main - extract_data - INFO - Close DataDao object
+2020-07-29 14:23:22,054 - main - process_data - INFO - Convert all relevant timestamps from string to datetime
+2020-07-29 14:23:22,272 - main - process_data - INFO - Add minute interval column to dataframe
+2020-07-29 14:23:24,986 - main - process_data - INFO - Calculate TAT in seconds for each transaction
+2020-07-29 14:23:24,999 - main - process_data - INFO - Identify Processing TAT Status for each transaction
+2020-07-29 14:23:25,070 - main - process_data - INFO - Mark all NEFT and RTGS Transactions as NEFT/RTGS
+2020-07-29 14:23:25,117 - main - process_data - INFO - Calculate #transactions and #successful transactions for each interval
+2020-07-29 14:23:25,515 - main - process_data - INFO - Calculate uptime, degrade, in-progress and downtime transactions for each interval
+2020-07-29 14:23:25,622 - main - process_data - INFO - Find all time intervals with less than 100 transactions
+2020-07-29 14:23:25,637 - main - process_data - INFO - Flag all rows with time intervals having # transactions < 100 as invalid
+2020-07-29 14:23:25,642 - main - process_data - INFO - Create final output
+2020-07-29 14:23:40,248 - main - extract_data - INFO - Initiate Payout Level Data Extraction
+2020-07-29 14:23:40,248 - main - extract_data - INFO - Read data from csv
+2020-07-29 14:23:41,460 - main - extract_data - INFO - Close DataDao object
+2020-07-29 14:23:41,461 - main - process_data - INFO - Convert all relevant timestamps from string to datetime
+2020-07-29 14:23:41,706 - main - process_data - INFO - Add minute interval column to dataframe
+2020-07-29 14:23:44,675 - main - process_data - INFO - Calculate TAT in seconds for each transaction
+2020-07-29 14:23:44,686 - main - process_data - INFO - Identify Processing TAT Status for each transaction
+2020-07-29 14:23:44,759 - main - process_data - INFO - Mark all NEFT and RTGS Transactions as NEFT/RTGS
+2020-07-29 14:23:44,807 - main - process_data - INFO - Calculate #transactions and #successful transactions for each interval
+2020-07-29 14:23:45,192 - main - process_data - INFO - Calculate uptime, degrade, in-progress and downtime transactions for each interval
+2020-07-29 14:23:45,297 - main - process_data - INFO - Find all time intervals with less than 100 transactions
+2020-07-29 14:23:45,313 - main - process_data - INFO - Flag all rows with time intervals having # transactions < 100 as invalid
+2020-07-29 14:23:45,319 - main - process_data - INFO - Create final output
+2020-07-29 14:24:56,972 - main - extract_data - INFO - Initiate Payout Level Data Extraction
+2020-07-29 14:24:56,972 - main - extract_data - INFO - Read data from csv
+2020-07-29 14:24:58,191 - main - extract_data - INFO - Close DataDao object
+2020-07-29 14:24:58,191 - main - process_data - INFO - Convert all relevant timestamps from string to datetime
+2020-07-29 14:24:58,412 - main - process_data - INFO - Add minute interval column to dataframe
+2020-07-29 14:25:01,098 - main - process_data - INFO - Calculate TAT in seconds for each transaction
+2020-07-29 14:25:01,110 - main - process_data - INFO - Identify Processing TAT Status for each transaction
+2020-07-29 14:25:01,181 - main - process_data - INFO - Mark all NEFT and RTGS Transactions as NEFT/RTGS
+2020-07-29 14:25:01,227 - main - process_data - INFO - Calculate #transactions and #successful transactions for each interval
+2020-07-29 14:25:01,610 - main - process_data - INFO - Calculate uptime, degrade, in-progress and downtime transactions for each interval
+2020-07-29 14:25:01,702 - main - process_data - INFO - Find all time intervals with less than 100 transactions
+2020-07-29 14:25:01,717 - main - process_data - INFO - Flag all rows with time intervals having # transactions < 100 as invalid
+2020-07-29 14:25:01,722 - main - process_data - INFO - Create final output
+2020-07-29 14:28:14,140 - main - extract_data - INFO - Initiate Payout Level Data Extraction
+2020-07-29 14:28:14,140 - main - extract_data - INFO - Read data from csv
+2020-07-29 14:28:15,218 - main - extract_data - INFO - Close DataDao object
+2020-07-29 14:28:15,218 - main - process_data - INFO - Convert all relevant timestamps from string to datetime
+2020-07-29 14:28:15,450 - main - process_data - INFO - Add minute interval column to dataframe
+2020-07-29 14:28:18,078 - main - process_data - INFO - Calculate TAT in seconds for each transaction
+2020-07-29 14:28:18,089 - main - process_data - INFO - Identify Processing TAT Status for each transaction
+2020-07-29 14:28:18,158 - main - process_data - INFO - Mark all NEFT and RTGS Transactions as NEFT/RTGS
+2020-07-29 14:28:18,204 - main - process_data - INFO - Calculate #transactions and #successful transactions for each interval
+2020-07-29 14:28:18,603 - main - process_data - INFO - Calculate uptime, degrade, in-progress and downtime transactions for each interval
+2020-07-29 14:28:18,696 - main - process_data - INFO - Find all time intervals with less than 100 transactions
+2020-07-29 14:28:18,711 - main - process_data - INFO - Flag all rows with time intervals having # transactions < 100 as invalid
+2020-07-29 14:28:18,717 - main - process_data - INFO - Create final output
